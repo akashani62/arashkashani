@@ -49,5 +49,5 @@ gem 'foundation-rails'
 
 gem 'puma'
 
-ruby "2.2.1"
+ruby "2.2.3"
 
