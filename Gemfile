@@ -18,6 +18,12 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
+group :development do
+  gem 'guard-rspec', require: false
+  gem 'guard-bundler', require: false
+  gem 'terminal-notifier-guard'
+end
+
 gem 'rails_12factor', group: :production
 gem 'foundation-rails'
 
