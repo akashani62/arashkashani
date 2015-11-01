@@ -47,7 +47,10 @@ gem 'rails_12factor', group: :production
 
 gem 'foundation-rails'
 
-gem 'puma'
+
+group :production do
+  gem 'puma'
+end
 
 ruby "2.2.3"
 
