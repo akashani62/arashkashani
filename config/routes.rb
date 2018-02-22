@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-
-
-
   root "welcome#index"
   # def query_params_to_query(request)
  #    query_params = request.params.except(:path, :format)
@@ -15,5 +12,4 @@ Rails.application.routes.draw do
  #    root to: redirect(redirect_action)
  #    get '/*path', to: redirect(redirect_action)
  #  end
-
 end
