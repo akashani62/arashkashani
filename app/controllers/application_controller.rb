@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::Base
-  force_ssl
+  # force_ssl
 end
