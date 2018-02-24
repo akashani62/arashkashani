@@ -781,6 +781,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   aws-sdk (~> 3.0, >= 3.0.1)
+  aws-sdk-rds
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.0.0)
   byebug

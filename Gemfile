@@ -71,3 +71,5 @@ gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'simple_form', '~> 3.5', '>= 3.5.1'
+
+gem 'aws-sdk-rds'
