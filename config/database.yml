@@ -22,8 +22,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
-  <<: *default
-  database: arashkashani_development
+  url: postgres://akashani62:aAbBcC123!@for-babe-aurora.cluster-cnn9atkfjax0.us-east-1.rds.amazonaws.com/lovey?sslmode=verify-full&sslrootcert=config/rds-combined-ca-bundle.pem
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -57,7 +56,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: arashkashani_test
+  database: for-babe-aurora-test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -74,8 +73,16 @@ test:
 #   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
 #
 # You can use this database configuration with:
-
-
+#
 production:
-  url: <%= ENV['DATABASE_URL'] %>
+  sslmode: verify-full
+  sslrootcert: config/rds-combined-ca-bundle.pem
+  adapter: postgresql
+  username: akashani62
+  password: aAbBcC123!
+  database: lovey
+  host: for-babe-aurora.cluster-cnn9atkfjax0.us-east-1.rds.amazonaws.com
 
+
+#   production:
+#     url: <%= ENV['DATABASE_URL'] %>
