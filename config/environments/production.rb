@@ -33,7 +33,7 @@ Rails.application.configure do
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
-  config.action_controller.asset_host = "cdn.arashkashani.com"
+  config.action_controller.asset_host = "https://cdn.arashkashani.com"
   # config.action_controller.asset_host = "https://www.arashkashani.com"
 
 
