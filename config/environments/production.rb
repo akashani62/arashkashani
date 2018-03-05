@@ -33,7 +33,8 @@ Rails.application.configure do
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
-  config.action_controller.asset_host = "d1h7io2m1coeep.cloudfront.net"
+  # config.action_controller.asset_host = "d1h7io2m1coeep.cloudfront.net"
+  config.action_controller.asset_host = "https://www.arashkashani.com"
 
 
   # Specifies the header that your server uses for sending files.
@@ -49,9 +50,9 @@ Rails.application.configure do
   # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  config.force_ssl = true
+  # config.force_ssl = true
  #
-  config.ssl_options = { redirect: { host: "www.arashkashani.com", exclude: -> request { request.path =~ /healthcheck/ } } }
+  # config.ssl_options = { redirect: { host: "www.arashkashani.com", exclude: -> request { request.path =~ /healthcheck/ } } }
 
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
