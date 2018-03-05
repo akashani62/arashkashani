@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   constraints(host: %r{^arashkashani.com}) do
     redirect_action = ->(params, _request) do
-      "https://secure.arashkashani.com/#{params[:path]}#{query_params_to_query(_request)}"
+      "https://www.arashkashani.com/#{params[:path]}#{query_params_to_query(_request)}"
     end
     root to: redirect(redirect_action)
     match '/*path', to: redirect(redirect_action), via: [:get, :post]
