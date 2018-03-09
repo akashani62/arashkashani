@@ -65,8 +65,6 @@ group :test do
   gem 'chromedriver-helper'
   gem 'capybara-webkit'
 end
-
-
 # gem 'aws-sdk'#, '~> 3.0', '>= 3.0.1'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
