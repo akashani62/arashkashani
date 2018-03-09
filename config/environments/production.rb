@@ -52,7 +52,7 @@ Rails.application.configure do
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
   config.force_ssl = true
-  config.ssl_options = { redirect: { host: "www.arashkashani.com", exclude: -> request { request.path =~ /healthcheck/ } } }
+  # config.ssl_options = { redirect: { host: "www.arashkashani.com", exclude: -> request { request.path =~ /healthcheck/ } } }
 
 
   # Use the lowest log level to ensure availability of diagnostic information
