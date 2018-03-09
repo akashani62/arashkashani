@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :welcome
   root "welcome#index"
 
   # def query_params_to_query(request)
