@@ -1,0 +1,9 @@
+List of files in zipfile
+Stored file name:Base/Config/newrelic.yml
+Original path:/Users/arashkashani/Documents/web/arashkashani/config/newrelic.yml
+
+Stored file name:Ruby/Config/Gemfile
+Original path:/Users/arashkashani/Documents/web/arashkashani/Gemfile
+
+Stored file name:Ruby/Config/Gemfile.lock
+Original path:/Users/arashkashani/Documents/web/arashkashani/Gemfile.lock
