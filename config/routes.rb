@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # binding.remote_pry
   puts "\n\n\n\n\n\n\n\n\n\n\ngethostnsame::"
   puts Socket.gethostname
-  puts "\n\n\n\n\n\n\n\n\n\n\n:"
+  puts "end======\n\n\n\n\n\n\n\n\n\n\n:"
 
   def query_params_to_query(request)
     query_params = request.params.except(:path, :format)
