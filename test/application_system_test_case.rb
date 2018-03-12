@@ -13,5 +13,7 @@ class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
     config.allow_url('www.google-analytics.com')
     config.allow_url('js-agent.newrelic.com')
     config.allow_url('www.google.ca')
+    config.allow_url('www.google.com')
+    config.allow_url('stats.g.doubleclick.net')
   end
 end
