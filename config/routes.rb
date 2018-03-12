@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # require 'pry-remote'
   # binding.remote_pry
   puts "\n\n\n\n\n\n\n\n\n\n\ngethostnsame::"
-  Socket.gethostname
+  puts Socket.gethostname
   puts "\n\n\n\n\n\n\n\n\n\n\n:"
 
   def query_params_to_query(request)
