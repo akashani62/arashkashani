@@ -3,6 +3,7 @@
 Rails.application.routes.draw do
   resources :welcome
   root 'welcome#index'
+  get "/sitemap.xml" => "sitemap#index", :format => "xml", :as => :sitemap
   # def query_params_to_query(request)
   #    query_params = request.params.except(:path, :format)
   #    query_params.any? ? "?#{query_params.to_query}" : ''

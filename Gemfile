@@ -79,4 +79,3 @@ gem 'jquery-rails'
 # gem 'newrelic_rpm'
 gem 'simple_form', '~> 3.5', '>= 3.5.1'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'sitemap_generator'
