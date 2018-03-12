@@ -6,7 +6,7 @@ class LandingPagesTest < ApplicationSystemTestCase
   test 'visiting the index' do
     visit root_url
 
-    assert_selector 'h1', text: 'Website of Arash Kashani'
+    assert_selector 'h1', text: 'Softare Developer.'
   end
 
   # test "visiting the index (remote)" do
