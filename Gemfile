@@ -37,7 +37,6 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'web-console', '>= 3.3.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
@@ -82,7 +81,7 @@ group :development do
   gem 'guard-bundler'
   gem 'guard-livereload', '~> 2.5', require: false
   gem 'guard-minitest'
-  gem 'guard-puma'
+  # gem 'guard-puma'
   gem 'guard-rubocop'
   gem 'rack-livereload'
   gem 'xray-rails'
@@ -99,9 +98,8 @@ gem 'aws-sdk' # , '~> 3.0', '>= 3.0.1'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 # gem 'newrelic_rpm'
-gem 'simple_form' ## , '~> 3.5', '>= 3.5.1'
+gem 'simple_form' # , '~> 3.5', '>= 3.5.1'
 
 gem 'coffee-script'
-
 
 # gem 'actionpack-action_caching'
