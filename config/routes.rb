@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     redirect_action = lambda do |params, _request|
       "https://www.arashkashani.com/#{params[:path]}#{query_params_to_query(_request)}"
     end
-    root to: redirect(redirect_action)
-    match '/*path', to: redirect(redirect_action), via: %i[get post]
+    # root to: redirect(redirect_action)
+    match "/*path", to: redirect(redirect_action), via: %i[get post]
   end
 end
