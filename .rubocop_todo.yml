@@ -32,6 +32,7 @@ Style/ClassAndModuleChildren:
 
 # Offense count: 8
 Style/Documentation:
+  Enabled: false
   Exclude:
     - 'spec/**/*'
     - 'test/**/*'
@@ -61,4 +62,4 @@ Style/NumericLiterals:
 # Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
 # URISchemes: http, https
 Metrics/LineLength:
-  Max: 130
+  Max: 300

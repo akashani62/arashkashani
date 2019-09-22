@@ -81,12 +81,11 @@ group :development do
   gem 'guard-bundler'
   gem 'guard-livereload', '~> 2.5', require: false
   gem 'guard-minitest'
-  # gem 'guard-puma'
+  gem 'guard-puma'
   gem 'guard-rubocop'
   gem 'rack-livereload'
-  gem 'xray-rails'
   gem 'terminal-notifier-guard'
-
+  gem 'xray-rails'
 end
 
 group :test do
