@@ -3,9 +3,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
 ruby '2.6.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -84,12 +81,11 @@ group :development do
   gem 'guard-bundler'
   gem 'guard-livereload', '~> 2.5', require: false
   gem 'guard-minitest'
-  # gem 'guard-puma'
+  gem 'guard-puma'
   gem 'guard-rubocop'
   gem 'rack-livereload'
-  gem 'xray-rails'
   gem 'terminal-notifier-guard'
-
+  gem 'xray-rails'
 end
 
 group :test do
